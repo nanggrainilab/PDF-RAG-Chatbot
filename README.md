@@ -26,11 +26,10 @@ Sentence Transformers + Streamlit**.
 ```
 pdf-rag-chatbot/
 ├── app.py                 # Entry point Streamlit (UI WhatsApp-style + orchestrasi)
-├── src/
-│   ├── config.py          # Load & validasi konfigurasi dari .env
-│   ├── pdf_utils.py        # Ekstraksi teks PDF + chunking
-│   ├── vectorstore.py      # Embedding (Sentence Transformers) + FAISS
-│   └── qa_chain.py         # Conversational RAG chain (Gemini)
+│── config.py          # Load & validasi konfigurasi dari .env
+├── pdf_utils.py        # Ekstraksi teks PDF + chunking
+├── vectorstore.py      # Embedding (Sentence Transformers) + FAISS
+└── qa_chain.py         # Conversational RAG chain (Gemini)
 ├── requirements.txt
 ├── .env.example
 ├── .gitignore
