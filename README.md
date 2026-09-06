@@ -4,7 +4,7 @@ Chatbot RAG (Retrieval Augmented Generation) berbasis PDF dengan tampilan
 mirip WhatsApp: sidebar berisi daftar **sesi chat**, di mana **tiap sesi
 punya knowledge base PDF sendiri-sendiri** (vector store terpisah, tidak
 tercampur antar sesi).
-
+![DEMO](asset/novitanggraini.gif)
 Dibangun dengan **LangChain + Google Gemini (`gemini-2.5-flash`) + FAISS +
 Sentence Transformers + Streamlit**.
 
